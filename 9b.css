@@ -1,0 +1,57 @@
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+  }
+  
+
+.leftnav {
+  float: left;
+  width: 20%;
+  height: 300px; 
+  padding: 5px;
+}
+
+.top {
+    background-color: gray;
+    padding: 60px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+.ball {
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.rounded-circle {
+    align-content: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#rightart {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
